@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <form>
+        <table>
+            <tr>
+                <td style="text-align:right">First Name:</td>
+                <td>
+                    <input id="FirstName" name="FirstName" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">Last Name:</td>
+                <td>
+                    <input id="FirstName" name="FirstName" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">Email:</td>
+                <td>
+                    <input id="Email" name="Email" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">Type of License:</td>
+                <td>
+                        <input id="LicenseType" name="LicenseType" type="radio" value="Business"/>Business
+                        <input id="LicenseType" name="LicenseType" type="radio" value="Business"/>Personal
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:right">Reason:</td>
+                <td>
+                    <select name="ReasonCode">
+                            <option value="Value1">Select a Reason</option>
+                            <option value="value2">Software Support</option>
+                            <option value="Value3">Hardware Support</option>
+                            <option value="Value4">Information Request</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Information:</td>
+                <td>
+                    <textarea id="Message" name="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="termsConditions" value="Terms"/>I have read the terms of service.
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" id="submitbutton" value="Send Request"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</html>
