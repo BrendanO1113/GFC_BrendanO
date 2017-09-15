@@ -1,0 +1,11 @@
+body{
+    background-color: #6DB8F5;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+#topdiv{
+    text-align:center
+}

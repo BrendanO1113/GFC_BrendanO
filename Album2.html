@@ -2,10 +2,20 @@
 <html>
     <head>
         <title>Album</title>
+        <link href="albumStyle.css" rel="stylesheet" type="text/css"/>
+        <style>
+            table{
+                border:1px solid black;
+                width:75%;
+            }
+            th, td{
+                border:1px solid black;
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <center>
-            <div>
+            <div id="topdiv">
                 <p>
                     <img src="images/CountMeIn.jpg" style="width:250px;height:250px"/>
                 </p>
@@ -15,7 +25,6 @@
                     2007
                 </p>
             </div>
-        </center>
         <hr/>
         <p>
             <ul>
@@ -26,9 +35,9 @@
             </ul>
         </p>
         <center>
-            <table border="1" Width="75%">
-                <thead>
-                    <tr bgcolor="grey">
+            <table>
+                <thead style="background:gray">
+                    <tr>
                         <th>Track #</th>
                         <th>Track Title</th>
                         <th>Track Length</th>
@@ -36,19 +45,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td align="center" valign="center">1</td>
-                        <td align="center" valign="center">Count Me In</td>
-                        <td align="center" valign="center">3:10</td>
+                        <td>1</td>
+                        <td>Count Me In</td>
+                        <td>3:10</td>
                     </tr>
                     <tr>
-                        <td align="center" valign="center">2</td>
-                        <td align="center" valign="center">De-Stress</td>
-                        <td align="center" valign="center">3:43</td>
+                        <td>2</td>
+                        <td>De-Stress</td>
+                        <td>3:43</td>
                     </tr>
                     <tr>
-                        <td align="center" valign="center">3</td>
-                        <td align="center" valign="center">More Love</td>
-                        <td align="center" valign="center">3:27</td>
+                        <td>3</td>
+                        <td>More Love</td>
+                        <td>3:27</td>
                      </tr>
                 </tbody>
             </table>
