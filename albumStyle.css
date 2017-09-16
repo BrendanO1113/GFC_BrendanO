@@ -9,3 +9,29 @@ img {
 #topdiv{
     text-align:center
 }
+#ital{
+    font-style: italic;
+}
+#img2{
+    font-family: 'Indie Flower', Cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#bg1{
+    background-image: url("images/CountMeIn.jpg");
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*#holder{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+#holder img{
+    background-image: url("images/CountMeIn.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
