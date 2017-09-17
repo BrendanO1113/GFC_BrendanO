@@ -24,14 +24,29 @@ img {
     background-position: center;
     background-repeat: no-repeat;
 }
-/*#holder{
-    position:absolute;
-    width:100%;
-    height:100%;
+a{
+ font-family: monospace;
+ font-weight: normal;
+ text-decoration: none;
 }
-#holder img{
-    background-image: url("images/CountMeIn.jpg");
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    background-color: green;
+    text-decoration: underline;
+}
+a:active{
+    color: purple;
+    text-decoration: none;
+}
+tbody{
+    font-style: italic;
+    background-color: tan;
+}
