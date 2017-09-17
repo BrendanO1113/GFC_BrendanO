@@ -18,3 +18,40 @@
 #labels{
     font-weight:bold;
 }
+a{
+    font-family: monospace;
+    font-weight: normal;
+    text-decoration: underline;
+    color: blue;
+   }
+   a:link{
+       color: blue;
+       text-decoration: underline;
+   }
+   a:visited{
+       color: red;
+       text-decoration: underline;
+   }
+   a:hover{
+       font-weight: bold;
+       color: green;
+   }
+   a:active{
+       color: purple;
+       text-decoration: none;
+}
+#table{
+    width: 33%;
+}
+#thead{
+    font-weight: bold;
+    text-align: right;
+    color: red;
+    text-decoration: underline;
+}
+#td1{
+    text-align: left;
+}
+#td2{
+    text-align: right;
+}
