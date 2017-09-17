@@ -23,23 +23,27 @@
         <body>
             <form>
                  <table class="td1">
-                    <tr>
+                    <tr id="labels">
                         <td>Name:</td>
                         <td>
                         <input id="Name" name="Name" type="text"/>
                         </td>
                     </tr>
-                    <tr>
+                    <tr id="labels">
                         <td>Email:</td>
                         <td>
                         <input id="Email" name="Email" type="text"/>
                         </td>
                     </tr>
-                        <td>Phone:</td>
+                    <tr id="labels">
                         <td>
-                        <input id="Phone" name="Phone" type="text"/>
-                         </td>           
-                     <tr>
+                            Phone:
+                        </td>
+                        <td>
+                            <input id="Phone" name="Phone" type="text"/>
+                        </td>  
+                    </tr>        
+                     <tr id="labels">
                         <td>Reason:</td>
                         <td>
                             <select name="ReasonCode">
@@ -50,21 +54,21 @@
                             </select>
                         </td>
                     </tr>
-                    <tr>
+                    <tr id="labels">
                         <td>Additional Information:</td>
                         <td>
                             <textarea id="Message" name="message"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <td>Have you Been to the restaurant:</td>
+                        <td id="labels">Have you Been to the restaurant:</td>
                         <td>
                             <input id="Visit" name="VisitType" type="radio" value="No"/>No
                             <input id="Visit" name="VisitType" type="radio" value="Yes"/>Yes
                         </td>
                     </tr>
                     <tr>
-                        <td></td>
+                        <td id="labels">Best Day to Contact</td>
                         <td>
                             <input type="checkbox" name="termsConditions" value="Terms"/>M
                             <input type="checkbox" name="termsConditions" value="Terms"/>T

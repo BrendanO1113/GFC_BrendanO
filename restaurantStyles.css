@@ -1,9 +1,20 @@
 #head1{
     text-align: center;
 }
-body{
+#bgcolor{
     background-color: lightslategray;
 }
 #footer1{
     text-align: center;
+}
+#name1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+#itemname{
+    font-size: large;
+    font-weight: bold;
+}
+#labels{
+    font-weight:bold;
 }
