@@ -1,6 +1,7 @@
-body{
+/*body{
     background-color: #6DB8F5;
 }
+*/
 img {
     display: block;
     margin: auto;
@@ -17,7 +18,8 @@ img {
     font-weight: bold;
     text-decoration: underline;
 }
-#bg1{
+/*this created the album cover as a background image but I removed when doing bootstrap v1*/
+.bg1{
     background-image: url("images/CountMeIn.jpg");
     height:100%;
     width:100%;
@@ -46,7 +48,9 @@ a:active{
     color: purple;
     text-decoration: none;
 }
+/*
 tbody{
     font-style: italic;
     background-color: tan;
 }
+*/
